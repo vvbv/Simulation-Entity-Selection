@@ -13,7 +13,6 @@ class Entity:
         self.pos = (np.random.randint(low=0, high=space[0]), np.random.randint(low=0, high=space[1]))
 
 
-
 def calculateDistance(point0: tuple, point1: tuple) -> float:
     return math.sqrt((point0[0] - point1[1])**2 + (point0[1] - point1[1])**2) 
 
