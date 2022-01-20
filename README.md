@@ -74,7 +74,7 @@ def simulateAndPlot(space):
     plt.show()
 
 
-space = (500,500)
 epochs = 500
+space = (500,500)
 simulateAndPlot(space)
 ```
